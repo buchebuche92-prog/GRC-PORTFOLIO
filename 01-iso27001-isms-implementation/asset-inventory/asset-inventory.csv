@@ -1,0 +1,11 @@
+﻿Asset ID,Asset name,Asset type,Description / information held,Business criticality,Proposed asset owner,Location / system,CIA relevance,Notes
+AST-001,Customer production database,Information,Customer contact and account records,High,Head of Engineering,Cloud production environment,Confidentiality / Integrity / Availability,Synthetic scenario asset
+AST-002,Production application platform,Software / Service,Customer-facing SaaS application,High,Head of Engineering,Public cloud,Availability / Integrity,Synthetic scenario asset
+AST-003,Source code repository,Information / Software,Application source code and configuration,High,Engineering Lead,Code hosting platform,Confidentiality / Integrity,Synthetic scenario asset
+AST-004,Identity and access platform,Service,User authentication and access management,High,IT Manager,Cloud identity provider,Confidentiality / Integrity / Availability,Synthetic scenario asset
+AST-005,Employee laptops,Hardware,Managed endpoint devices,Medium,IT Manager,Remote / London office,Confidentiality / Integrity,Synthetic scenario asset
+AST-006,Customer support platform,Service / Information,Support tickets and customer correspondence,High,Customer Operations Lead,SaaS supplier,Confidentiality / Availability,Synthetic scenario asset
+AST-007,Backup repositories,Information / Service,Backups of production data and systems,High,Cloud Operations Lead,Cloud storage,Availability / Confidentiality / Integrity,Synthetic scenario asset
+AST-008,CI/CD pipeline,Service,"Build, test and deployment automation",High,Engineering Lead,Cloud development platform,Integrity / Availability,Synthetic scenario asset
+AST-009,Supplier contracts and assurance records,Documentation,"Security terms, DPAs and due diligence",Medium,Procurement Lead,Document repository,Confidentiality / Integrity,Synthetic scenario asset
+AST-010,Information security policies,Documentation,Approved security policies and procedures,Medium,Information Security Manager,Document repository,Integrity / Availability,Synthetic scenario asset
